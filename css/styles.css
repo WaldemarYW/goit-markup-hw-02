@@ -1,39 +1,38 @@
 :root {
-  /* IRIS */
-  --primary-brand-color: #4d5ae5;
+  /* Primary Brand  */
+  --iris: #4d5ae5;
 
-  /* OCEAN */
-  --preset-state-color: #404bbf;
+  /* Pressed state */
+  --ocean: #404bbf;
 
-  /* navy blue */
-  --dark-color: #2e2f42;
+  /* Dark */
+  --navy-blue: #2e2f42;
 
-  /* green */
-  --success-color: #31d0aa;
+  /* Text */
+  --slate: #434455;
 
-  /* slate */
-  --text-color: #434455;
+  /* Subtle Text*/
+  --light-slate: #8e8f99;
 
-  /* light slate */
-  --subtle-text-color: #8e8f99;
+  /* Accent */
+  --cornflower: #e7e9fc;
 
-  /* cornflower */
-  --accent-color: #e7e9fc;
+  /* Light */
+  --cloud: #f4f4fd;
 
-  /* cloud */
-  --light-color: #f4f4fd;
-
-  /* navy blue madal */
-  --modal-overlay: #2e2f42;
+  /* Modal overlay */
+  --navy-blue-modal: #2e2f42;
 
   /* background  */
-  --hero-background-color: #ffffff;
+  --white-color: #ffffff;
 }
 
 body {
-  background-color: var(--hero-background-color);
+  background-color: var(--white-color);
   font-family: "Roboto";
-  color: var(--text-color);
+  font-style: normal;
+  letter-spacing: 0.02em;
+  color: var(--slate);
 }
 ul {
   list-style: none;
@@ -42,67 +41,62 @@ a {
   text-decoration: none;
 }
 .logo {
-  font-family: "Raleway";
-  font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 24px;
-  color: var(--dark-color);
-  text-decoration: none;
+  color: var(--navy-blue);
 }
 .logo-web {
-  color: var(--primary-brand-color);
+  color: var(--iris);
 }
 .site-nav .link {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
 }
 .link:hover,
 .link:focus {
-  color: var(--preset-state-color);
+  color: var(--ocean);
 }
 
 /* h1-h3, p setting */
 
 .h1-title {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 700;
   font-size: 56px;
   line-height: 60px;
-  letter-spacing: 0.02em;
-  color: #ffffff;
+  color: var(--white-color);
 }
 .h2-title {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 40px;
-  letter-spacing: 0.02em;
-  color: var(--dark-color);
+  color: var(--navy-blue);
 }
 .h3-title {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
-  letter-spacing: 0.02em;
-  color: var(--dark-color);
+  color: var(--navy-blue);
 }
 .p-title {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  letter-spacing: 0.02em;
-  color: var(--text-color);
+  color: var(--slate);
 }
 .hero-section {
-  background: var(--dark-color);
+  background: var(--navy-blue);
+}
+.btn {
+  background: var(--cloud);
+  border: 1px solid var(--cornflower);
+  border-radius: 4px;
+}
+.btn.active {
+  color: var(--white-color);
+  background: var(--ocean);
+}
+.btn.rest {
+  color: var(--iris);
 }
