@@ -55,13 +55,14 @@ a {
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.33;
+  line-height: 1.17;
   color: var(--iris);
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
 }
 .logo-studio {
+  text-decoration: none;
   color: var(--navy-blue);
 }
 .logo-footer {
@@ -70,37 +71,49 @@ a {
   color: var(--cloud);
 }
 
-.contact {
-  color: var(--slate);
-}
-.contact:hover,
-.contact:focus {
-  color: var(--ocean);
-}
-
-.link-studio:hover,
-.link-studio:focus {
-  color: var(--ocean);
-}
 /* -----------------header section */
 .site-nav {
   list-style: none;
 }
-.link-studio {
+.link-menu {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   color: var(--navy-blue);
   text-decoration: none;
 }
+.link-menu:hover,
+.link-menu:focus {
+  color: var(--ocean);
+}
+.add-nav {
+  font-style: normal;
+}
+.add-menu {
+  list-style: none;
+}
+.contact {
+  color: var(--slate);
+  text-decoration: none;
+}
+.contact:hover,
+.contact:focus {
+  color: var(--ocean);
+}
 
-/* -----------------body section */
+/* --------------------body section */
 .hero-section {
   background: var(--navy-blue);
 }
+/* -------about */
+.about-menu {
+  list-style: none;
+}
+
 .team-section {
   background: var(--cloud);
 }
+
 /* ---------------------footer section */
 .footer-section {
   background: var(--navy-blue);
@@ -110,19 +123,24 @@ a {
 }
 
 /*--------------- h1-h3, p setting */
-.h1-title {
+.hi-title {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
+  text-align: center;
   color: var(--white-color);
+  letter-spacing: 0.02em;
 }
-.h2-title {
+.hii-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   color: var(--navy-blue);
 }
-.h3-title {
+.h-hide {
+  display: none;
+}
+.hiii-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 0.83;
@@ -133,13 +151,17 @@ a {
 }
 
 .btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
   color: var(--white-color);
   background: var(--iris);
   border: 1px solid var(--cornflower);
+  letter-spacing: 0.04em;
+  cursor: pointer;
 }
 .btn:hover,
 .btn:focus {
   color: var(--white-color);
   background: var(--ocean);
-  cursor: pointer;
 }
