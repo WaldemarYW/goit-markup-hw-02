@@ -32,8 +32,7 @@ body {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
-  /* font-size: 16px;
-  line-height: 24px; */
+  font-size: 16px;
   line-height: calc(24 / 16);
   letter-spacing: 0.02em;
   color: var(--slate);
@@ -55,13 +54,13 @@ a {
   font-family: "Raleway";
   font-style: normal;
   font-weight: 800;
-  /* font-size: 18px;
-  line-height: 24px; */
+  font-size: 18px;
   line-height: calc(24 / 18);
   color: var(--navy-blue);
+  letter-spacing: 0.03em;
 }
 .logo-footer {
-  line-height: 21px;
+  line-height: calc(21 / 18);
   color: var(--cloud);
 }
 .logo-web {
@@ -101,22 +100,19 @@ a {
 /*--------------- h1-h3, p setting */
 .h1-title {
   font-weight: 700;
-  /* font-size: 56px;
-  line-height: 60px; */
+  font-size: 56px;
   line-height: calc(60 / 56);
   color: var(--white-color);
 }
 .h2-title {
   font-weight: 700;
-  /* font-size: 36px;
-  line-height: 40px; */
+  font-size: 36px;
   line-height: calc(40 / 36);
   color: var(--navy-blue);
 }
 .h3-title {
   font-weight: 500;
-  /* font-size: 20px;
-  line-height: 24px; */
+  font-size: 20px;
   line-height: calc(24 / 20);
   color: var(--navy-blue);
 }
