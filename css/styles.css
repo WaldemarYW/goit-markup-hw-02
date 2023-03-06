@@ -113,7 +113,12 @@ a {
 .team-section {
   background: var(--cloud);
 }
-
+.doing-img {
+  list-style: none;
+}
+.team-menu {
+  list-style: none;
+}
 /* ---------------------footer section */
 .footer-section {
   background: var(--navy-blue);
@@ -143,8 +148,9 @@ a {
 .hiii-title {
   font-weight: 500;
   font-size: 20px;
-  line-height: 0.83;
+  line-height: 1.2;
   color: var(--navy-blue);
+  letter-spacing: 0.02em;
 }
 .p-title {
   color: var(--slate);
