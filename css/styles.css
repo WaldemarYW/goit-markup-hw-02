@@ -29,11 +29,11 @@
 
 body {
   background-color: var(--white-color);
-  font-family: "Roboto";
-  font-style: sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: calc(24 / 16);
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--slate);
 }
@@ -51,18 +51,18 @@ a {
 -----*/
 /* --------------------_logo_----------------- */
 .logo {
-  font-family: "Raleway";
-  font-style: sans-serif;
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: calc(24 / 18);
+  line-height: 1.33;
   color: var(--navy-blue);
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 .logo-footer {
   font-size: 18px;
-  line-height: calc(21 / 18);
+  line-height: 1.16;
   color: var(--cloud);
 }
 .logo-web {
@@ -103,19 +103,19 @@ a {
 .h1-title {
   font-weight: 700;
   font-size: 56px;
-  line-height: calc(60 / 56);
+  line-height: 1.07;
   color: var(--white-color);
 }
 .h2-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: calc(40 / 36);
+  line-height: 1.11;
   color: var(--navy-blue);
 }
 .h3-title {
   font-weight: 500;
   font-size: 20px;
-  line-height: calc(24 / 20);
+  line-height: 0.83;
   color: var(--navy-blue);
 }
 .p-title {
