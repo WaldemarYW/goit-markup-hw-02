@@ -31,6 +31,10 @@ body {
   background-color: var(--white-color);
   font-family: "Roboto";
   font-style: normal;
+  font-weight: 400;
+  /* font-size: 16px;
+  line-height: 24px; */
+  line-height: calc(24 / 16);
   letter-spacing: 0.02em;
   color: var(--slate);
 }
@@ -40,63 +44,94 @@ ul {
 a {
   text-decoration: none;
 }
+/*---- 
+* {
+  list-style: none;
+  text-decoration: none;
+} 
+-----*/
+/* --------------------_logo_----------------- */
 .logo {
+  font-family: "Raleway";
+  font-style: normal;
   font-weight: 800;
-  font-size: 18px;
-  line-height: 24px;
+  /* font-size: 18px;
+  line-height: 24px; */
+  line-height: calc(24 / 18);
   color: var(--navy-blue);
+}
+.logo-footer {
+  line-height: 21px;
+  color: var(--cloud);
 }
 .logo-web {
   color: var(--iris);
 }
-.site-nav .link {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
+.contact {
+  color: var(--slate);
 }
+.contact:hover,
+.contact:focus {
+  color: var(--ocean);
+}
+.link {
+  font-weight: 500;
+  color: var(--navy-blue);
+}
+
 .link:hover,
 .link:focus {
   color: var(--ocean);
 }
+/* -----------------body section */
+.hero-section {
+  background: var(--navy-blue);
+}
+.team-section {
+  background: var(--cloud);
+}
+/* ---------------------footer section */
+.footer-section {
+  background: var(--navy-blue);
+}
+.foot-info {
+  color: var(--cornflower);
+}
 
-/* h1-h3, p setting */
-
+/*--------------- h1-h3, p setting */
 .h1-title {
   font-weight: 700;
-  font-size: 56px;
-  line-height: 60px;
+  /* font-size: 56px;
+  line-height: 60px; */
+  line-height: calc(60 / 56);
   color: var(--white-color);
 }
 .h2-title {
   font-weight: 700;
-  font-size: 36px;
-  line-height: 40px;
+  /* font-size: 36px;
+  line-height: 40px; */
+  line-height: calc(40 / 36);
   color: var(--navy-blue);
 }
 .h3-title {
   font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
+  /* font-size: 20px;
+  line-height: 24px; */
+  line-height: calc(24 / 20);
   color: var(--navy-blue);
 }
 .p-title {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
   color: var(--slate);
 }
-.hero-section {
-  background: var(--navy-blue);
-}
+
 .btn {
-  background: var(--cloud);
+  color: var(--white-color);
+  background: var(--iris);
   border: 1px solid var(--cornflower);
-  border-radius: 4px;
 }
-.btn.active {
+.btn:hover,
+.btn:focus {
   color: var(--white-color);
   background: var(--ocean);
-}
-.btn.rest {
-  color: var(--iris);
+  cursor: pointer;
 }
