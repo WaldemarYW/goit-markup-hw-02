@@ -37,7 +37,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--slate);
 }
-ul {
+/* ul {
   list-style: none;
 }
 a {
@@ -56,18 +56,20 @@ a {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.33;
-  color: var(--navy-blue);
+  color: var(--iris);
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  text-decoration: none;
+}
+.logo-studio {
+  color: var(--navy-blue);
 }
 .logo-footer {
   font-size: 18px;
-  line-height: 1.16;
+  line-height: 1.17;
   color: var(--cloud);
 }
-.logo-web {
-  color: var(--iris);
-}
+
 .contact {
   color: var(--slate);
 }
@@ -75,15 +77,23 @@ a {
 .contact:focus {
   color: var(--ocean);
 }
-.link {
-  font-weight: 500;
-  color: var(--navy-blue);
-}
 
-.link:hover,
-.link:focus {
+.link-studio:hover,
+.link-studio:focus {
   color: var(--ocean);
 }
+/* -----------------header section */
+.site-nav {
+  list-style: none;
+}
+.link-studio {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  color: var(--navy-blue);
+  text-decoration: none;
+}
+
 /* -----------------body section */
 .hero-section {
   background: var(--navy-blue);
