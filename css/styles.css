@@ -64,6 +64,7 @@ a {
   color: var(--iris);
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  text-decoration: none;
 }
 .logo-studio {
   color: var(--navy-blue);
