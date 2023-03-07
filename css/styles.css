@@ -26,7 +26,9 @@
   /* background  */
   --white-color: #ffffff;
 }
-
+.list {
+  list-style: none;
+}
 body {
   background-color: var(--white-color);
   font-family: "Roboto", sans-serif;
@@ -72,12 +74,6 @@ a {
 }
 
 /* -----------------header section */
-/* .site-nav {
-  list-style: none;
-} */
-.site-nav {
-  list-style: none;
-}
 .link-menu {
   font-size: 16px;
   font-weight: 500;
@@ -88,12 +84,6 @@ a {
 .link-menu:hover,
 .link-menu:focus {
   color: var(--ocean);
-}
-.add-nav {
-  font-style: normal;
-}
-.add-menu {
-  list-style: none;
 }
 .contact {
   color: var(--slate);
@@ -108,20 +98,12 @@ a {
 .hero-section {
   background: var(--navy-blue);
 }
-/* -------about */
-.about-menu {
-  list-style: none;
-}
+/* ----------------------about */
 
 .team-section {
   background: var(--cloud);
 }
-.doing-img {
-  list-style: none;
-}
-.team-menu {
-  list-style: none;
-}
+
 /* ---------------------footer section */
 .footer-section {
   background: var(--navy-blue);
@@ -130,15 +112,14 @@ a {
   color: var(--cornflower);
 }
 /* --------------------------------------------PORTFOLIO */
-.filter-menu {
-  list-style: none;
-}
-.filter-variants {
-  list-style: none;
-}
-.variants-link {
+.content-link {
   text-decoration: none;
 }
+/* .content-link:hover,
+.content-link:focus {
+  background: var(--ocean);
+} */
+
 /*--------------- h1-h3, p setting */
 .hi-title {
   font-weight: 700;
