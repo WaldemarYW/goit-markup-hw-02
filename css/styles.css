@@ -88,9 +88,7 @@ a {
 .addres-contact {
   font-style: normal;
 }
-.contact {
-  color: var(--slate);
-}
+
 .contact:hover,
 .contact:focus {
   color: var(--ocean);
@@ -114,9 +112,7 @@ a {
   color: var(--cornflower);
 }
 /* --------------------------------------------PORTFOLIO */
-.content-link {
-  text-decoration: none;
-}
+
 /* .content-link:hover,
 .content-link:focus {
   background: var(--ocean);
