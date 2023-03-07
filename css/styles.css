@@ -29,6 +29,9 @@
 .list {
   list-style: none;
 }
+.decor {
+  text-decoration: none;
+}
 body {
   background-color: var(--white-color);
   font-family: "Roboto", sans-serif;
@@ -61,10 +64,8 @@ a {
   color: var(--iris);
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  text-decoration: none;
 }
 .logo-studio {
-  text-decoration: none;
   color: var(--navy-blue);
 }
 .logo-footer {
@@ -79,7 +80,6 @@ a {
   font-weight: 500;
   line-height: 1.5;
   color: var(--navy-blue);
-  text-decoration: none;
 }
 .link-menu:hover,
 .link-menu:focus {
@@ -87,7 +87,6 @@ a {
 }
 .contact {
   color: var(--slate);
-  text-decoration: none;
 }
 .contact:hover,
 .contact:focus {
@@ -112,9 +111,7 @@ a {
   color: var(--cornflower);
 }
 /* --------------------------------------------PORTFOLIO */
-.content-link {
-  text-decoration: none;
-}
+
 /* .content-link:hover,
 .content-link:focus {
   background: var(--ocean);
