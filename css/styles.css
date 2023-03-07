@@ -85,6 +85,9 @@ a {
 .link-menu:focus {
   color: var(--ocean);
 }
+.addres-contact {
+  font-style: normal;
+}
 .contact {
   color: var(--slate);
 }
@@ -130,6 +133,7 @@ a {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
+  letter-spacing: 0.02em;
   text-align: center;
   color: var(--navy-blue);
   text-transform: capitalize;
