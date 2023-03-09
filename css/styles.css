@@ -81,12 +81,17 @@ a {
   line-height: 1.5;
   color: var(--navy-blue);
 }
-.link-menu:hover,
-.link-menu:focus {
-  color: var(--ocean);
-}
 .addres-contact {
   font-style: normal;
+}
+.link-contact {
+  color: var(--slate);
+}
+.link-menu:hover,
+.link-menu:focus,
+.link-contact:hover,
+.addres-contact:focus {
+  color: var(--ocean);
 }
 
 .contact:hover,
